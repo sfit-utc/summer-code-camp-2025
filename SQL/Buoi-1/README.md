@@ -350,3 +350,21 @@ FROM customer_orders;
 SELECT order_id, order_date, DATE_TRUNC('month', order_date) AS month_start
 FROM customer_orders;
 ```
+
+
+## LỆNH ĐIỀU KIỆN VÀ CHUYỂN ĐỔI
+
+### Chuyển đổi kiểu dữ liệu
+
+Chuyển đổi kiểu dữ liệu trong PostgreSQL có thể được thực hiện bằng cách sử dụng các hàm chuyển đổi hoặc cú pháp CAST. Dưới đây là một số ví dụ về cách chuyển đổi kiểu dữ liệu trong PostgreSQL:
+
+```sql
+SELECT CAST(sale_price AS INTEGER) AS sale_price_int FROM products;
+
+SELECT sale_price::INTEGER AS sale_price_int FROM products;
+
+SELECT CAST('2024-06-15' AS DATE) AS converted_date;
+SELECT '2024-06-15'::DATE AS converted_date;
+
+SELECT '{10,20,30}'::INT[] AS int_array;
+```
