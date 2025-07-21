@@ -351,7 +351,6 @@ SELECT order_id, order_date, DATE_TRUNC('month', order_date) AS month_start
 FROM customer_orders;
 ```
 
-
 ## LỆNH ĐIỀU KIỆN VÀ CHUYỂN ĐỔI
 
 ### Chuyển đổi kiểu dữ liệu
