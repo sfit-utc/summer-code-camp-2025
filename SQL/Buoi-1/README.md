@@ -1,5 +1,7 @@
 # BUỔI 1 - GIỚI THIỆU VỀ SQL VÀ CÁC CÂU LỆNH CƠ BẢN
 
+Slide: [Canva Slide](https://www.canva.com/design/DAGZ06NLg-M/HzrkwHwd7L9z469Q6bBlsQ/edit?utm_content=DAGZ06NLg-M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## CÀI ĐẶT MÔI TRƯỜNG PostgreSQL
 
 Cài đặt PostgreSQL trên máy tính của bạn. 
